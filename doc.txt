@@ -1,0 +1,15 @@
+1. For fixing laravel mix version issues used following script:
+    "development": "mix",
+    "watch": "npx mix watch",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules     --config=node_modules/laravel-mix/setup/webpack.config.js"
+
+2. For responsing css and img asset from server added following code:
+
+    app.use(express.static('public'));
+
+    Note: Because server response always in html form
+
+3. In tailwind css,
+    px means horizontal -- 
+    py means vertical |
+    py-4 means 1 rem - 16px

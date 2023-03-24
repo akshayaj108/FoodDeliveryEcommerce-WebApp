@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.get("/", (req, res) => {
   res.render("home");
 });
+app.use(express.static("public"));
 // set templete engine
 app.use(expressLayout);
 app.set("views", path.join(__dirname, "/resources/views"));
