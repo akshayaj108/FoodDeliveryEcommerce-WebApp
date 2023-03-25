@@ -19,3 +19,21 @@ nav li:last-child a {
     background-color: $primary_hover;
   }
 }
+
+section.hero {
+  background: $secondary;
+}
+.sized {
+  background-color: aqua;
+}
+
+.add-cart {
+  border: 2px solid $primary;
+  columns: $primary;
+  transition: $smooth;
+  &:hover {
+    background-color: $primary;
+    color: $pure;
+    border-color: $pure;
+  }
+}

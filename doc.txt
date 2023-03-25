@@ -10,6 +10,6 @@
     Note: Because server response always in html form
 
 3. In tailwind css,
-    px means horizontal -- 
-    py means vertical |
+    px means horizontal left/right-- 
+    py means vertical top/bottom|
     py-4 means 1 rem - 16px

@@ -18,3 +18,23 @@ nav li:last-child a {
 nav li:last-child a:hover {
   background-color: #b23301;
 }
+
+section.hero {
+  background: #faeded;
+}
+
+.sized {
+  background-color: aqua;
+}
+
+.add-cart {
+  border: 2px solid #fe5f1e;
+  -moz-columns: #fe5f1e;
+       columns: #fe5f1e;
+  transition: all 0.3s ease-in-out;
+}
+.add-cart:hover {
+  background-color: #fe5f1e;
+  color: #fff;
+  border-color: #fff;
+}
