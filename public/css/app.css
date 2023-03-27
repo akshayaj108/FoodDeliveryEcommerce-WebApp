@@ -23,6 +23,13 @@ section.hero {
   background: #faeded;
 }
 
+section.cart {
+  background: #faeded;
+}
+section.cart .amount {
+  color: #fe5f1e;
+}
+
 .sized {
   background-color: aqua;
 }
@@ -37,4 +44,23 @@ section.hero {
   background-color: #fe5f1e;
   color: #fff;
   border-color: #fff;
+}
+
+.btn-primar {
+  background-color: #fe5f1e;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primar:hover {
+  background-color: #b23301;
+}
+
+section.login {
+  background-color: #faeded;
+  min-height: calc(100vh - 86px);
+}
+section.login a {
+  background-color: #faeded;
+}
+section.login a:hover {
+  background-color: #b23301;
 }
